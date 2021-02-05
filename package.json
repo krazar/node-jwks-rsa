@@ -1,5 +1,5 @@
 {
-  "name": "jwks-rsa",
+  "name": "jwks-rsa-v2",
   "version": "1.12.2",
   "description": "Library to retrieve RSA public keys from a JWKS endpoint",
   "main": "lib/index.js",
@@ -63,17 +63,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/auth0/node-jwks-rsa.git"
+    "url": "git+https://github.com/krazar/node-jwks-rsa.git"
   },
   "keywords": [
     "jwks",
     "rsa",
+    "ecdsa",
+    "es256",
+    "es512",
     "jwt"
   ],
   "author": "Auth0",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/auth0/node-jwks-rsa/issues"
+    "url": "https://github.com/krazar/node-jwks-rsa/issues"
   },
-  "homepage": "https://github.com/auth0/node-jwks-rsa#readme"
+  "homepage": "https://github.com/krazar/node-jwks-rsa#readme"
 }
